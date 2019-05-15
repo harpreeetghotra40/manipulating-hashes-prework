@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
+  groceryList = Array.new
+  groceries.each do |keys, values|
+    groceryList = groceryList.concat(values)
+  end
 
-  
-
+  groceryList
 end
